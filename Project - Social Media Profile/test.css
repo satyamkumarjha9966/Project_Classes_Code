@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 176, 176);
+}
+.box{
+    border-radius: 12px;
+    height: 500px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color: rgb(230, 224, 224);
+    box-shadow: 5px 5px 5px black, -5px -5px 5px rgb(255, 255, 255);
+    gap: 22px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    width: 100%;
+}
+.logoimgsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logocontent{
+    display: flex;
+    align-content: center;
+    gap: 25px;
+}
+.logoimg img{
+    width: 120px;
+    height: 120px;
+    border: 5px solid rgb(182, 178, 178);
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px rgb(255, 255, 255);
+}
+.lcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.introsec{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.introsec button {
+    width: 100%;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    box-shadow: 3px 3px 5px black, -3px -3px 5px rgb(255, 255, 255);
+    background-color: rgb(226, 223, 223);
+    gap: 10px;
+}
+.smosec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.smosec i {
+    font-size: 32px;
+}
+.smosec i:first-child {
+    color: blue;
+}
+.smosec i:nth-child(2) {
+    color: rgb(235, 63, 91);
+}
+.smosec i:nth-child(3) {
+    color: rgb(71, 216, 209);
+}
+.smosec i:last-child {
+    color: red;
+
+}
+.btnsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.btnsec button{
+    padding: 8px 28px;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+.lastsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.imgandtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.line{
+    width: 2px;
+    background-color: black;
+    height: 20px;
+}
